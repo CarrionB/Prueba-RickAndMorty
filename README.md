@@ -22,7 +22,7 @@ Simplemente dando click en cualquiera de los botones laterales, se avanza o retr
 
 ### Clonación
 ---
-Puede clonar el proyecto usando el siguiente link: `https://github.com/CarrionB/JuegoDados`
+Puede clonar el proyecto usando el siguiente link: `https://github.com/CarrionB/Prueba-RickAndMorty`
 
 ### Autor
 ---
