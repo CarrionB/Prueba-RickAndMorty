@@ -1,0 +1,36 @@
+.slider {
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  flex-grow: 4; /* default 0 */
+  flex-direction: row;
+}
+
+.char-image {
+  border: 0.5rem solid var(--background-details);
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}
+
+.data {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}
+
+.title {
+  color: var(--title);
+}
+
+@media screen and (min-width: 0px) and (max-width: 599px) {
+  .slider {   
+    padding-top: 5%;
+    flex-direction: column  
+  }
+  .char-image { width: 50%;}
+  .data { width: 100%;}
+}
+

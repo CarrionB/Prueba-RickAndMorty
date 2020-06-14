@@ -1,0 +1,86 @@
+* {
+  text-align: center;
+  font-family: OpenSans;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+.main {
+  font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+:root {
+  --primary: #00afc7;
+  --secondary: #bfce51;
+  --background-details: #f7de8e;
+  --title: #ffffff;
+  --text: #2d2d2d;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+span {
+  font-size: 20px;
+  color: var(--text);
+}
+
+p {
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--background-details);
+  padding: 1%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 599px) {
+  body { background-color: var(--secondary); }
+  p {width: 70%}
+  h1 { font-size: 10vw;}
+}
+@media screen and (min-width: 600px) {
+  body { background-color: var(--primary); }
+}
+
+button {
+  background-color: transparent; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 7vw;
+  top: 50%;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  font-size: 10vw;
+}
+
+.buttonContainerL {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttonContainerR {
+  display: flex;
+  align-items: center;
+}
