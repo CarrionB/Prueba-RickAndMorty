@@ -50,12 +50,12 @@ p {
   margin-right: auto;
 }
 
-@media screen and (min-width: 0px) and (max-width: 599px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   body { background-color: var(--secondary); }
   p {width: 70%}
   h1 { font-size: 10vw;}
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 769px) {
   body { background-color: var(--primary); }
 }
 
